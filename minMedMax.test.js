@@ -1,4 +1,4 @@
-const testFn = require('./minMedMax')
+const testFn = require('./minMedMax.js')
 
 test('output#1', () => {
   expect(testFn(85, 30, 1)).toStrictEqual({ min: 1, mid: 30, max: 85 })
