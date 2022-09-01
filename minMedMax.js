@@ -30,7 +30,7 @@ function minMedMax(n1, n2, n3) {
         minn= n2,maxx=n1,midd=n1
     }
     let x
-    x={"min":min,"mid":mid,"max":max}
+    x={"min":minn,"mid":midd,"max":maxx}
     return x ;
 }
 module.exports = minMedMax
